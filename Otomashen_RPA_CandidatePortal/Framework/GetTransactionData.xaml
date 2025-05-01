@@ -125,7 +125,7 @@
         <ActivityAction>
           <TryCatch DisplayName="Try Catch Get transaction item" sap:VirtualizedContainerService.HintSize="418,829.3333333333334" sap2010:WorkflowViewState.IdRef="TryCatch_2">
             <TryCatch.Try>
-              <ui:GetQueueItem ContinueOnError="{x:Null}" sap2010:Annotation.AnnotationText="Get a transaction item from the specified Orchestrator queue.&#xA;If queues are not used in this process, replace this activity with the appropriated logic to retrieve transaction items.&#xA;For example, if transactions are rows from a DataTable, the row corresponding to the current transaction is retrieved at this point." DisplayName="Get transaction item" FolderPath="Project_1" sap:VirtualizedContainerService.HintSize="416,290" sap2010:WorkflowViewState.IdRef="GetQueueItem_2" QueueType="Updated_JobIDs" TransactionItem="[out_TransactionItem]">
+              <ui:GetQueueItem ContinueOnError="{x:Null}" sap2010:Annotation.AnnotationText="Get a transaction item from the specified Orchestrator queue.&#xA;If queues are not used in this process, replace this activity with the appropriated logic to retrieve transaction items.&#xA;For example, if transactions are rows from a DataTable, the row corresponding to the current transaction is retrieved at this point." DisplayName="Get transaction item" FolderPath="Shared" sap:VirtualizedContainerService.HintSize="416,290" sap2010:WorkflowViewState.IdRef="GetQueueItem_2" QueueType="Load_JobIDs" TransactionItem="[out_TransactionItem]">
                 <ui:GetQueueItem.Reference>
                   <InArgument x:TypeArguments="x:String" />
                 </ui:GetQueueItem.Reference>

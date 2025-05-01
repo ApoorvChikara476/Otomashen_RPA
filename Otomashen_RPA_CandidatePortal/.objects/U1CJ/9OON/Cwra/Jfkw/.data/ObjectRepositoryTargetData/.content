@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Dq4OaXoOHE6m_1cZDqVBKA" Reference="HuIHL7LOqkuTDi6hIIzqqQ/JfkwTZl9lUaYyFuS_Xf4_A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="dev.oats.otomashen.com/jobs" CVScreenId="aa84271c-82b0-4c8f-8e63-83c14e552197" CvTextArea="1676, 971, 104, 19" CvType="AnyWordGroup" DesignTimeRectangle="1676, 966, 105, 30" DesignTimeScaleFactor="1.5" ElementType="Text" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;table' tag='TABLE' /&gt;&lt;webctrl tableRow='1' tag='P' /&gt;&lt;nav up='1' /&gt;&lt;webctrl tableRow='1' tag='P' colName='Rows per page*' parentid='root' idx='2' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl class='MuiTablePagination-displayedRows css-wqp0ve' type='' tag='P' /&gt;" Guid="45d9bb0a-bb42-4967-b1fc-28f4c97eaabc" ImageBase64="" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Otomashen ATS' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive" WaitForReadyArgument="Complete">
+      <imageRef attrName="InformativeScreenshot" originalValue="4e64ab55d3d1d91fdc8cf1a5d2c6c8e5.png" xmlns="">0XFcAMLO4VkOSSNjWb-rkfg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
