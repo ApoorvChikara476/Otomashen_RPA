@@ -15,7 +15,7 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "25.0.161.0",
-  "projectVersion": "1.0.2",
+  "projectVersion": "1.0.4",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -95,6 +95,12 @@
     {
       "filePath": "Main.xaml",
       "uniqueId": "a6ed6f9b-7ba0-4094-9515-c966e8351943",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Main_Dispatcher.xaml",
+      "uniqueId": "81c77c5c-3315-42be-9f59-d77969981493",
       "input": [],
       "output": []
     }
