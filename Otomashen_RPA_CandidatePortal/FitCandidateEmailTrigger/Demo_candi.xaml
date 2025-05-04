@@ -121,7 +121,7 @@
       <AssemblyReference>Microsoft.VisualBasic.Core</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Demo_candi" sap:VirtualizedContainerService.HintSize="1194.6666666666667,890" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Demo_candi" sap:VirtualizedContainerService.HintSize="1194.6666666666667,930" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="ui:UiElement" Name="outputElement">
         <sap:WorkflowViewStateService.ViewState>
@@ -137,7 +137,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Edge Otomashen ATS(2)" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="634,867.3333333333334" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" IsIncognito="True" OpenMode="Never" OutUiElement="[outputElement]" ScopeGuid="4df299c5-e0b8-4cdf-b68e-0c567f371d3a" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Edge Otomashen ATS(2)" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="634,907.3333333333334" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" IsIncognito="True" OpenMode="Never" OutUiElement="[outputElement]" ScopeGuid="4df299c5-e0b8-4cdf-b68e-0c567f371d3a" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
@@ -173,7 +173,7 @@
               </sap:WorkflowViewStateService.ViewState>
               <uix:NClick ActivateBefore="True" ClickType="Single" CursorMotionType="Instant" DisplayName="Click Job ID" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="110,70" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="4df299c5-e0b8-4cdf-b68e-0c567f371d3a" Version="V4">
                 <uix:NClick.Target>
-                  <uix:TargetAnchorable BrowserURL="dev.oats.otomashen.com/jobs" CVScreenId="4b8c334a-5e08-4808-a110-a6d68bc4aa17" ContentHash="f_EabMI1HEOGHVbuOH_vSg" CvTextArea="384, 560, 106, 21" CvTextArgument="[in_JobID.ToString]" CvType="Text" DesignTimeRectangle="494, 475, 39, 39" DesignTimeScaleFactor="1.5" ElementType="Text" FullSelectorArgument="[string.Format(&quot;&lt;webctrl tag='A' aaname='{0}' colName='Job Code' tableCol='2' /&gt;&quot;, in_JobID)]" FuzzySelectorArgument="[string.Format(&quot;&lt;webctrl tag='A' aaname='{0}' colName='Job Code' type='' class='' /&gt;&quot;, in_JobID)]" Guid="c177a72a-abf1-4518-8781-08de3044001c" InformativeScreenshot="81d8a42c231d5b19cd299561b605de97.png" Reference="HuIHL7LOqkuTDi6hIIzqqQ/XpvZTErGxkq_P-CCJjs1ZQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Otomashen ATS' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive" />
+                  <uix:TargetAnchorable BrowserURL="dev.oats.otomashen.com/jobs" CVScreenId="4b8c334a-5e08-4808-a110-a6d68bc4aa17" ContentHash="Amlg9SDixUGzL2-J5k9UKg" CvTextArea="384, 560, 106, 21" CvTextArgument="[in_JobID.ToString]" CvType="Text" DesignTimeRectangle="494, 475, 39, 39" DesignTimeScaleFactor="1.5" ElementType="Text" FullSelectorArgument="[string.Format(&quot;&lt;webctrl tag='A' aaname='{0}' colName='Job Code' tableCol='2' /&gt;&quot;, in_JobID)]" Guid="c177a72a-abf1-4518-8781-08de3044001c" InformativeScreenshot="81d8a42c231d5b19cd299561b605de97.png" Reference="HuIHL7LOqkuTDi6hIIzqqQ/XpvZTErGxkq_P-CCJjs1ZQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Otomashen ATS' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive" WaitForReadyArgument="Complete" />
                 </uix:NClick.Target>
                 <uix:NClick.VerifyOptions>
                   <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
@@ -202,7 +202,7 @@
                   </sap:WorkflowViewStateService.ViewState>
                   <uix:NCheckState DisplayName="Check App State 'View All'" Exists="[bool_Exists]" sap:VirtualizedContainerService.HintSize="110,70" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="4df299c5-e0b8-4cdf-b68e-0c567f371d3a" Version="V4">
                     <uix:NCheckState.IfExists>
-                      <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="504,2160.6666666666665" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                      <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="504,2072" sap2010:WorkflowViewState.IdRef="Sequence_7">
                         <Sequence.Variables>
                           <Variable x:TypeArguments="sd:DataTable" Name="dt_PerfectFitCandidates" />
                         </Sequence.Variables>
@@ -211,7 +211,7 @@
                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
-                        <Assign DisplayName="Re Assign int_rowIndex" sap:VirtualizedContainerService.HintSize="470,86" sap2010:WorkflowViewState.IdRef="Assign_10">
+                        <Assign DisplayName="Re Assign int_rowIndex" sap:VirtualizedContainerService.HintSize="470,57.333333333333336" sap2010:WorkflowViewState.IdRef="Assign_10">
                           <Assign.To>
                             <OutArgument x:TypeArguments="x:Int32">[int_rowIndex]</OutArgument>
                           </Assign.To>
@@ -225,7 +225,7 @@
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
                         </Assign>
-                        <Assign DisplayName="initialise datatable" sap:VirtualizedContainerService.HintSize="470,86" sap2010:WorkflowViewState.IdRef="Assign_18">
+                        <Assign DisplayName="initialise datatable" sap:VirtualizedContainerService.HintSize="470,57.333333333333336" sap2010:WorkflowViewState.IdRef="Assign_18">
                           <Assign.To>
                             <OutArgument x:TypeArguments="sd:DataTable">[dt_PerfectFitCandidates]</OutArgument>
                           </Assign.To>
@@ -239,7 +239,7 @@
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
                         </Assign>
-                        <uix:NClick ActivateBefore="True" ClickType="Single" CursorMotionType="Instant" DisplayName="Click 'View All'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="470,86" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="4df299c5-e0b8-4cdf-b68e-0c567f371d3a" Version="V4">
+                        <uix:NClick ActivateBefore="True" ClickType="Single" CursorMotionType="Instant" DisplayName="Click 'View All'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="470,57.333333333333336" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="4df299c5-e0b8-4cdf-b68e-0c567f371d3a" Version="V4">
                           <uix:NClick.Target>
                             <uix:TargetAnchorable BrowserURL="dev.oats.otomashen.com/jobs/snap-view/JID000018" CVScreenId="e49e02e6-7208-48bf-95ee-52af48f6cb17" ContentHash="VGzmMZB5mESfheX1Ifh2mA" DesignTimeRectangle="1764, 1637, 67, 27" DesignTimeScaleFactor="1.5" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='View All' tag='A' parentid='root' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='View All' tag='A' parentid='root' type='' class='text-[12px] xxl:text-[14px] 2xl:text-[18px] font-semibold underline' check:text='View All' /&gt;" Guid="10a3f8e0-c344-428e-a589-a184dba0f2d2" Reference="HuIHL7LOqkuTDi6hIIzqqQ/Wr7bsk7SWkCrZqMiiKASpQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Otomashen ATS' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V5" Visibility="Interactive" WaitForReadyArgument="Complete" />
                           </uix:NClick.Target>
